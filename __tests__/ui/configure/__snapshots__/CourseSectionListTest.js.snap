@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CourseSectionList /> should match the snapshot 1`] = `
+Object {
+  "options": Object {
+    "decodeEntities": true,
+    "xml": false,
+  },
+}
+`;

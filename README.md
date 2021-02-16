@@ -1,31 +1,96 @@
-# Ruby on Rails for Platform.sh
+# README
 
-<p align="center">
-<a href="https://console.platform.sh/projects/create-project?template=https://raw.githubusercontent.com/platformsh/template-builder/master/templates/rails/.platform.template.yaml&utm_content=rails&utm_source=github&utm_medium=button&utm_campaign=deploy_on_platform">
-    <img src="https://platform.sh/images/deploy/lg-blue.svg" alt="Deploy on Platform.sh" width="180px" />
-</a>
-</p>
+Assumes you have installed Ruby v. 2.7.1 ([rbenv](https://github.com/rbenv/rbenv) recommended), Rails 6.0.3, Node 10.15, NPM 6.4
 
-This template builds Ruby on Rails 5 on Platform.sh.  It includes a bridge library that will auto-configure most databases and services, and ships with PostgreSQL out of the box.  Otherwise it is the same as the result of running "rails new".
+## Install
 
-Rails is an opinionated rapid application development framework written in Ruby.
+This app uses PostgresSQL 10+ -- but probably also works with 9.x
 
-## Features
+For the database:
+1. Install the postgres db.
+2. Set the following environment variables so 
+     your local system can find the db:
+     
+     - DB_HOST - eg `localhost`
+     - DB_USER - for a default install it's probably your system name.  Try running
+         `whoami` on the commandline to determine what name to use.
+     - DB_PASSWORD - for a default install it's usually the same as your user name
+     - DB_PORT - default is 5432
+3. Create a local development and a local test database.  (Running the tests will truncate 
+    the tables in the test database, but the dev db will be safe) 
+     ```
+     $ psql -U <username>
+     psql (10.7)
+     Type "help" for help.
+        
+     # create database markers_development;
+     CREATE DATABASE
+     # create database markers_test;
+     CREATE DATABASE
+     # \q
+     $
+     
+     ```
+4. Navigate to the markers directory and run the migration to set up the database tables and data:
+   ```
+   $ rake db:migrate
+   ```
+5. Install the front end modules:
+    ```
+    $ yarn
+    ```
+6. Start the rails server, and then in another window, start the webpacker
+   ```
+   $ rails s
+    ```
+    ```
+    $ ./bin/webpack-dev-server --host 127.0.0.1
 
-* Ruby 2.6
-* PostgreSQL 11
-* Automatic TLS certificates
-* Bundler-based build
+   ```
+7.  Navigate to localhost:3000 to see the app in your browser
 
-## Customizations
+8.  If you need to see your app in your local network, for example testing on a phone, bind the 
+rails server to 0.0.0.0.  (localhost is not a public IP address so you won't be able to access it that way, same 
+for 127.0.0.0).  If you use 0,0,0,0 it will bind to your IP address.  And also localhost:
+```apple js
+$ rails s -b 0.0.0.0
+```
 
-The following changes have been made relative to a `rails new` generated project.  If using this project as a reference for your own existing project, replicate the changes below to your project.
+### If running PostgreSQL in docker
 
-* The `.platform.app.yaml`, `.platform/services.yaml`, and `.platform/routes.yaml` files have been added.  These provide Platform.sh-specific configuration and are present in all projects on Platform.sh.  You may customize them as you see fit.
-* The Platform.sh [Rails helper library](https://github.com/platformsh/platformsh-rails-helper) has been installed via Bundler.  It provides automatic configuration of most databases and services out fo the box.
-* The `config/database.yml` file has been moved to `config/database.yml.example`.  It is not needed as the database will be configured by the helper gem.  For local development you can create a `database.yml` file to configure as needed.  It has been added to `.gitignore` so it won't get committed to Git.
+1. The `pg` gem requires postgres libraries, so `libpq` is needed if PostgreSQL isn't install.
+```
+$ brew install libpq 
+```
 
-## References
+2. Save a build option in the bundler build config to use `libpq` when install the `pg` gem.
+```
+$ bundle config --local build.pg --with-opt-dir="/usr/local/opt/libpq"
+```
 
-* [Ruby on Rails](https://rubyonrails.org/)
-* [Ruby on Platform.sh](https://docs.platform.sh/languages/ruby.html)
+3. Install the required gems
+```
+$ bundle install
+```
+
+4. Start-up the database using docker-compose
+```
+$ docker-compose up -d
+```
+     
+## Testing
+Yarn 1.x is in maintenance mode, and Yarn 2 is a poor substitute (google 'yarn is dead'); 
+so we can switch to `pnpm` in the develpment environmet, for speed; but we still use `yarn` on heroku because 
+they haven't gotten around to adding `pnpm` to their build tools.
+To install `pnpm` see instructions at https://pnpm.js.org/en/installation.
+### API tests:
+Either 
+
+    $ rails test
+or
+
+    $ pnpm run api-test
+    
+### Front end tests:
+    $ pnpm test
+    

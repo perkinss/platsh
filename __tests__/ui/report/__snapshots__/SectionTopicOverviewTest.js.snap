@@ -1,0 +1,2619 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SectionReportOverview /> should match the snapshot 1`] = `
+initialize {
+  "0": Node {
+    "attribs": Object {
+      "class": "MuiTabs-root",
+    },
+    "children": Array [
+      Node {
+        "attribs": Object {
+          "class": "MuiTabs-scroller MuiTabs-fixed",
+          "style": "overflow:hidden",
+        },
+        "children": Array [
+          Node {
+            "attribs": Object {
+              "class": "MuiTabs-flexContainer",
+              "role": "tablist",
+            },
+            "children": Array [
+              Node {
+                "attribs": Object {
+                  "aria-selected": "true",
+                  "class": "MuiButtonBase-root MuiTab-root MuiTab-textColorSecondary Mui-selected MuiTab-fullWidth",
+                  "role": "tab",
+                  "tabindex": "0",
+                  "type": "button",
+                },
+                "children": Array [
+                  Node {
+                    "attribs": Object {
+                      "class": "MuiTab-wrapper",
+                    },
+                    "children": Array [
+                      Node {
+                        "data": "Math 9",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "span",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": Node {
+                      "attribs": Object {
+                        "class": "PrivateTabIndicator-root-1 PrivateTabIndicator-colorSecondary-3 MuiTabs-indicator",
+                      },
+                      "children": Array [],
+                      "name": "span",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": [Circular],
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                      },
+                    },
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "class": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "class": undefined,
+                    },
+                  },
+                  Node {
+                    "attribs": Object {
+                      "class": "PrivateTabIndicator-root-1 PrivateTabIndicator-colorSecondary-3 MuiTabs-indicator",
+                    },
+                    "children": Array [],
+                    "name": "span",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": Node {
+                      "attribs": Object {
+                        "class": "MuiTab-wrapper",
+                      },
+                      "children": Array [
+                        Node {
+                          "data": "Math 9",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "span",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": [Circular],
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                      },
+                    },
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "class": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "class": undefined,
+                    },
+                  },
+                ],
+                "name": "button",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "aria-selected": undefined,
+                  "class": undefined,
+                  "role": undefined,
+                  "tabindex": undefined,
+                  "type": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "aria-selected": undefined,
+                  "class": undefined,
+                  "role": undefined,
+                  "tabindex": undefined,
+                  "type": undefined,
+                },
+              },
+            ],
+            "name": "div",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": null,
+            "parent": [Circular],
+            "prev": null,
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+              "role": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+              "role": undefined,
+            },
+          },
+        ],
+        "name": "div",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": null,
+        "parent": [Circular],
+        "prev": null,
+        "type": "tag",
+        "x-attribsNamespace": Object {
+          "class": undefined,
+          "style": undefined,
+        },
+        "x-attribsPrefix": Object {
+          "class": undefined,
+          "style": undefined,
+        },
+      },
+    ],
+    "name": "div",
+    "namespace": "http://www.w3.org/1999/xhtml",
+    "next": Node {
+      "attribs": Object {
+        "style": "overflow-x:hidden;overflow:hidden;padding:20px",
+      },
+      "children": Array [
+        Node {
+          "attribs": Object {
+            "class": "react-swipeable-view-container",
+            "style": "-webkit-flex-direction:row;flex-direction:row;-webkit-transition:all 0s ease 0s;transition:all 0s ease 0s;direction:ltr;display:flex;will-change:transform",
+          },
+          "children": Array [
+            Node {
+              "attribs": Object {
+                "aria-hidden": "false",
+                "data-swipeable": "true",
+                "style": "width:100%;-webkit-flex-shrink:0;flex-shrink:0;overflow:auto",
+              },
+              "children": Array [
+                Node {
+                  "attribs": Object {
+                    "class": "MuiTypography-root MuiTypography-body1",
+                    "dir": "ltr",
+                  },
+                  "children": Array [
+                    Node {
+                      "attribs": Object {
+                        "class": "MuiGrid-root MuiGrid-container",
+                      },
+                      "children": Array [
+                        Node {
+                          "attribs": Object {
+                            "class": "MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-8",
+                            "style": "padding:5px 10px",
+                          },
+                          "children": Array [
+                            Node {
+                              "attribs": Object {
+                                "id": "stacked-topic-chart",
+                              },
+                              "children": Array [
+                                Node {
+                                  "attribs": Object {
+                                    "class": "MuiTypography-root MuiTypography-h5",
+                                  },
+                                  "children": Array [
+                                    Node {
+                                      "data": "Content",
+                                      "next": null,
+                                      "parent": [Circular],
+                                      "prev": null,
+                                      "type": "text",
+                                    },
+                                  ],
+                                  "name": "h5",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": Node {
+                                    "attribs": Object {
+                                      "class": "MuiTypography-root MuiTypography-caption",
+                                    },
+                                    "children": Array [
+                                      Node {
+                                        "data": "No data available",
+                                        "next": null,
+                                        "parent": [Circular],
+                                        "prev": null,
+                                        "type": "text",
+                                      },
+                                    ],
+                                    "name": "span",
+                                    "namespace": "http://www.w3.org/1999/xhtml",
+                                    "next": null,
+                                    "parent": [Circular],
+                                    "prev": [Circular],
+                                    "type": "tag",
+                                    "x-attribsNamespace": Object {
+                                      "class": undefined,
+                                    },
+                                    "x-attribsPrefix": Object {
+                                      "class": undefined,
+                                    },
+                                  },
+                                  "parent": [Circular],
+                                  "prev": null,
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {
+                                    "class": undefined,
+                                  },
+                                  "x-attribsPrefix": Object {
+                                    "class": undefined,
+                                  },
+                                },
+                                Node {
+                                  "attribs": Object {
+                                    "class": "MuiTypography-root MuiTypography-caption",
+                                  },
+                                  "children": Array [
+                                    Node {
+                                      "data": "No data available",
+                                      "next": null,
+                                      "parent": [Circular],
+                                      "prev": null,
+                                      "type": "text",
+                                    },
+                                  ],
+                                  "name": "span",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": null,
+                                  "parent": [Circular],
+                                  "prev": Node {
+                                    "attribs": Object {
+                                      "class": "MuiTypography-root MuiTypography-h5",
+                                    },
+                                    "children": Array [
+                                      Node {
+                                        "data": "Content",
+                                        "next": null,
+                                        "parent": [Circular],
+                                        "prev": null,
+                                        "type": "text",
+                                      },
+                                    ],
+                                    "name": "h5",
+                                    "namespace": "http://www.w3.org/1999/xhtml",
+                                    "next": [Circular],
+                                    "parent": [Circular],
+                                    "prev": null,
+                                    "type": "tag",
+                                    "x-attribsNamespace": Object {
+                                      "class": undefined,
+                                    },
+                                    "x-attribsPrefix": Object {
+                                      "class": undefined,
+                                    },
+                                  },
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {
+                                    "class": undefined,
+                                  },
+                                  "x-attribsPrefix": Object {
+                                    "class": undefined,
+                                  },
+                                },
+                              ],
+                              "name": "div",
+                              "namespace": "http://www.w3.org/1999/xhtml",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "tag",
+                              "x-attribsNamespace": Object {
+                                "id": undefined,
+                              },
+                              "x-attribsPrefix": Object {
+                                "id": undefined,
+                              },
+                            },
+                          ],
+                          "name": "div",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": Node {
+                            "attribs": Object {
+                              "class": "MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4",
+                              "style": "padding:5px 10px",
+                            },
+                            "children": Array [
+                              Node {
+                                "attribs": Object {
+                                  "id": "stacked-competency-chart",
+                                },
+                                "children": Array [
+                                  Node {
+                                    "attribs": Object {
+                                      "class": "MuiTypography-root MuiTypography-h5",
+                                    },
+                                    "children": Array [
+                                      Node {
+                                        "data": "Competencies",
+                                        "next": null,
+                                        "parent": [Circular],
+                                        "prev": null,
+                                        "type": "text",
+                                      },
+                                    ],
+                                    "name": "h5",
+                                    "namespace": "http://www.w3.org/1999/xhtml",
+                                    "next": Node {
+                                      "attribs": Object {
+                                        "class": "MuiTypography-root MuiTypography-caption",
+                                      },
+                                      "children": Array [
+                                        Node {
+                                          "data": "No data available",
+                                          "next": null,
+                                          "parent": [Circular],
+                                          "prev": null,
+                                          "type": "text",
+                                        },
+                                      ],
+                                      "name": "span",
+                                      "namespace": "http://www.w3.org/1999/xhtml",
+                                      "next": null,
+                                      "parent": [Circular],
+                                      "prev": [Circular],
+                                      "type": "tag",
+                                      "x-attribsNamespace": Object {
+                                        "class": undefined,
+                                      },
+                                      "x-attribsPrefix": Object {
+                                        "class": undefined,
+                                      },
+                                    },
+                                    "parent": [Circular],
+                                    "prev": null,
+                                    "type": "tag",
+                                    "x-attribsNamespace": Object {
+                                      "class": undefined,
+                                    },
+                                    "x-attribsPrefix": Object {
+                                      "class": undefined,
+                                    },
+                                  },
+                                  Node {
+                                    "attribs": Object {
+                                      "class": "MuiTypography-root MuiTypography-caption",
+                                    },
+                                    "children": Array [
+                                      Node {
+                                        "data": "No data available",
+                                        "next": null,
+                                        "parent": [Circular],
+                                        "prev": null,
+                                        "type": "text",
+                                      },
+                                    ],
+                                    "name": "span",
+                                    "namespace": "http://www.w3.org/1999/xhtml",
+                                    "next": null,
+                                    "parent": [Circular],
+                                    "prev": Node {
+                                      "attribs": Object {
+                                        "class": "MuiTypography-root MuiTypography-h5",
+                                      },
+                                      "children": Array [
+                                        Node {
+                                          "data": "Competencies",
+                                          "next": null,
+                                          "parent": [Circular],
+                                          "prev": null,
+                                          "type": "text",
+                                        },
+                                      ],
+                                      "name": "h5",
+                                      "namespace": "http://www.w3.org/1999/xhtml",
+                                      "next": [Circular],
+                                      "parent": [Circular],
+                                      "prev": null,
+                                      "type": "tag",
+                                      "x-attribsNamespace": Object {
+                                        "class": undefined,
+                                      },
+                                      "x-attribsPrefix": Object {
+                                        "class": undefined,
+                                      },
+                                    },
+                                    "type": "tag",
+                                    "x-attribsNamespace": Object {
+                                      "class": undefined,
+                                    },
+                                    "x-attribsPrefix": Object {
+                                      "class": undefined,
+                                    },
+                                  },
+                                ],
+                                "name": "div",
+                                "namespace": "http://www.w3.org/1999/xhtml",
+                                "next": null,
+                                "parent": [Circular],
+                                "prev": null,
+                                "type": "tag",
+                                "x-attribsNamespace": Object {
+                                  "id": undefined,
+                                },
+                                "x-attribsPrefix": Object {
+                                  "id": undefined,
+                                },
+                              },
+                            ],
+                            "name": "div",
+                            "namespace": "http://www.w3.org/1999/xhtml",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": [Circular],
+                            "type": "tag",
+                            "x-attribsNamespace": Object {
+                              "class": undefined,
+                              "style": undefined,
+                            },
+                            "x-attribsPrefix": Object {
+                              "class": undefined,
+                              "style": undefined,
+                            },
+                          },
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "tag",
+                          "x-attribsNamespace": Object {
+                            "class": undefined,
+                            "style": undefined,
+                          },
+                          "x-attribsPrefix": Object {
+                            "class": undefined,
+                            "style": undefined,
+                          },
+                        },
+                        Node {
+                          "attribs": Object {
+                            "class": "MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4",
+                            "style": "padding:5px 10px",
+                          },
+                          "children": Array [
+                            Node {
+                              "attribs": Object {
+                                "id": "stacked-competency-chart",
+                              },
+                              "children": Array [
+                                Node {
+                                  "attribs": Object {
+                                    "class": "MuiTypography-root MuiTypography-h5",
+                                  },
+                                  "children": Array [
+                                    Node {
+                                      "data": "Competencies",
+                                      "next": null,
+                                      "parent": [Circular],
+                                      "prev": null,
+                                      "type": "text",
+                                    },
+                                  ],
+                                  "name": "h5",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": Node {
+                                    "attribs": Object {
+                                      "class": "MuiTypography-root MuiTypography-caption",
+                                    },
+                                    "children": Array [
+                                      Node {
+                                        "data": "No data available",
+                                        "next": null,
+                                        "parent": [Circular],
+                                        "prev": null,
+                                        "type": "text",
+                                      },
+                                    ],
+                                    "name": "span",
+                                    "namespace": "http://www.w3.org/1999/xhtml",
+                                    "next": null,
+                                    "parent": [Circular],
+                                    "prev": [Circular],
+                                    "type": "tag",
+                                    "x-attribsNamespace": Object {
+                                      "class": undefined,
+                                    },
+                                    "x-attribsPrefix": Object {
+                                      "class": undefined,
+                                    },
+                                  },
+                                  "parent": [Circular],
+                                  "prev": null,
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {
+                                    "class": undefined,
+                                  },
+                                  "x-attribsPrefix": Object {
+                                    "class": undefined,
+                                  },
+                                },
+                                Node {
+                                  "attribs": Object {
+                                    "class": "MuiTypography-root MuiTypography-caption",
+                                  },
+                                  "children": Array [
+                                    Node {
+                                      "data": "No data available",
+                                      "next": null,
+                                      "parent": [Circular],
+                                      "prev": null,
+                                      "type": "text",
+                                    },
+                                  ],
+                                  "name": "span",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": null,
+                                  "parent": [Circular],
+                                  "prev": Node {
+                                    "attribs": Object {
+                                      "class": "MuiTypography-root MuiTypography-h5",
+                                    },
+                                    "children": Array [
+                                      Node {
+                                        "data": "Competencies",
+                                        "next": null,
+                                        "parent": [Circular],
+                                        "prev": null,
+                                        "type": "text",
+                                      },
+                                    ],
+                                    "name": "h5",
+                                    "namespace": "http://www.w3.org/1999/xhtml",
+                                    "next": [Circular],
+                                    "parent": [Circular],
+                                    "prev": null,
+                                    "type": "tag",
+                                    "x-attribsNamespace": Object {
+                                      "class": undefined,
+                                    },
+                                    "x-attribsPrefix": Object {
+                                      "class": undefined,
+                                    },
+                                  },
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {
+                                    "class": undefined,
+                                  },
+                                  "x-attribsPrefix": Object {
+                                    "class": undefined,
+                                  },
+                                },
+                              ],
+                              "name": "div",
+                              "namespace": "http://www.w3.org/1999/xhtml",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "tag",
+                              "x-attribsNamespace": Object {
+                                "id": undefined,
+                              },
+                              "x-attribsPrefix": Object {
+                                "id": undefined,
+                              },
+                            },
+                          ],
+                          "name": "div",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": Node {
+                            "attribs": Object {
+                              "class": "MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-8",
+                              "style": "padding:5px 10px",
+                            },
+                            "children": Array [
+                              Node {
+                                "attribs": Object {
+                                  "id": "stacked-topic-chart",
+                                },
+                                "children": Array [
+                                  Node {
+                                    "attribs": Object {
+                                      "class": "MuiTypography-root MuiTypography-h5",
+                                    },
+                                    "children": Array [
+                                      Node {
+                                        "data": "Content",
+                                        "next": null,
+                                        "parent": [Circular],
+                                        "prev": null,
+                                        "type": "text",
+                                      },
+                                    ],
+                                    "name": "h5",
+                                    "namespace": "http://www.w3.org/1999/xhtml",
+                                    "next": Node {
+                                      "attribs": Object {
+                                        "class": "MuiTypography-root MuiTypography-caption",
+                                      },
+                                      "children": Array [
+                                        Node {
+                                          "data": "No data available",
+                                          "next": null,
+                                          "parent": [Circular],
+                                          "prev": null,
+                                          "type": "text",
+                                        },
+                                      ],
+                                      "name": "span",
+                                      "namespace": "http://www.w3.org/1999/xhtml",
+                                      "next": null,
+                                      "parent": [Circular],
+                                      "prev": [Circular],
+                                      "type": "tag",
+                                      "x-attribsNamespace": Object {
+                                        "class": undefined,
+                                      },
+                                      "x-attribsPrefix": Object {
+                                        "class": undefined,
+                                      },
+                                    },
+                                    "parent": [Circular],
+                                    "prev": null,
+                                    "type": "tag",
+                                    "x-attribsNamespace": Object {
+                                      "class": undefined,
+                                    },
+                                    "x-attribsPrefix": Object {
+                                      "class": undefined,
+                                    },
+                                  },
+                                  Node {
+                                    "attribs": Object {
+                                      "class": "MuiTypography-root MuiTypography-caption",
+                                    },
+                                    "children": Array [
+                                      Node {
+                                        "data": "No data available",
+                                        "next": null,
+                                        "parent": [Circular],
+                                        "prev": null,
+                                        "type": "text",
+                                      },
+                                    ],
+                                    "name": "span",
+                                    "namespace": "http://www.w3.org/1999/xhtml",
+                                    "next": null,
+                                    "parent": [Circular],
+                                    "prev": Node {
+                                      "attribs": Object {
+                                        "class": "MuiTypography-root MuiTypography-h5",
+                                      },
+                                      "children": Array [
+                                        Node {
+                                          "data": "Content",
+                                          "next": null,
+                                          "parent": [Circular],
+                                          "prev": null,
+                                          "type": "text",
+                                        },
+                                      ],
+                                      "name": "h5",
+                                      "namespace": "http://www.w3.org/1999/xhtml",
+                                      "next": [Circular],
+                                      "parent": [Circular],
+                                      "prev": null,
+                                      "type": "tag",
+                                      "x-attribsNamespace": Object {
+                                        "class": undefined,
+                                      },
+                                      "x-attribsPrefix": Object {
+                                        "class": undefined,
+                                      },
+                                    },
+                                    "type": "tag",
+                                    "x-attribsNamespace": Object {
+                                      "class": undefined,
+                                    },
+                                    "x-attribsPrefix": Object {
+                                      "class": undefined,
+                                    },
+                                  },
+                                ],
+                                "name": "div",
+                                "namespace": "http://www.w3.org/1999/xhtml",
+                                "next": null,
+                                "parent": [Circular],
+                                "prev": null,
+                                "type": "tag",
+                                "x-attribsNamespace": Object {
+                                  "id": undefined,
+                                },
+                                "x-attribsPrefix": Object {
+                                  "id": undefined,
+                                },
+                              },
+                            ],
+                            "name": "div",
+                            "namespace": "http://www.w3.org/1999/xhtml",
+                            "next": [Circular],
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "tag",
+                            "x-attribsNamespace": Object {
+                              "class": undefined,
+                              "style": undefined,
+                            },
+                            "x-attribsPrefix": Object {
+                              "class": undefined,
+                              "style": undefined,
+                            },
+                          },
+                          "type": "tag",
+                          "x-attribsNamespace": Object {
+                            "class": undefined,
+                            "style": undefined,
+                          },
+                          "x-attribsPrefix": Object {
+                            "class": undefined,
+                            "style": undefined,
+                          },
+                        },
+                      ],
+                      "name": "div",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                      },
+                    },
+                  ],
+                  "name": "div",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                    "dir": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                    "dir": undefined,
+                  },
+                },
+              ],
+              "name": "div",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "aria-hidden": undefined,
+                "data-swipeable": undefined,
+                "style": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "aria-hidden": undefined,
+                "data-swipeable": undefined,
+                "style": undefined,
+              },
+            },
+          ],
+          "name": "div",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": null,
+          "parent": [Circular],
+          "prev": null,
+          "type": "tag",
+          "x-attribsNamespace": Object {
+            "class": undefined,
+            "style": undefined,
+          },
+          "x-attribsPrefix": Object {
+            "class": undefined,
+            "style": undefined,
+          },
+        },
+      ],
+      "name": "div",
+      "namespace": "http://www.w3.org/1999/xhtml",
+      "next": null,
+      "parent": Node {
+        "children": Array [
+          [Circular],
+          [Circular],
+        ],
+        "name": "root",
+        "next": null,
+        "parent": null,
+        "prev": null,
+        "type": "root",
+      },
+      "prev": [Circular],
+      "type": "tag",
+      "x-attribsNamespace": Object {
+        "style": undefined,
+      },
+      "x-attribsPrefix": Object {
+        "style": undefined,
+      },
+    },
+    "parent": Node {
+      "children": Array [
+        [Circular],
+        Node {
+          "attribs": Object {
+            "style": "overflow-x:hidden;overflow:hidden;padding:20px",
+          },
+          "children": Array [
+            Node {
+              "attribs": Object {
+                "class": "react-swipeable-view-container",
+                "style": "-webkit-flex-direction:row;flex-direction:row;-webkit-transition:all 0s ease 0s;transition:all 0s ease 0s;direction:ltr;display:flex;will-change:transform",
+              },
+              "children": Array [
+                Node {
+                  "attribs": Object {
+                    "aria-hidden": "false",
+                    "data-swipeable": "true",
+                    "style": "width:100%;-webkit-flex-shrink:0;flex-shrink:0;overflow:auto",
+                  },
+                  "children": Array [
+                    Node {
+                      "attribs": Object {
+                        "class": "MuiTypography-root MuiTypography-body1",
+                        "dir": "ltr",
+                      },
+                      "children": Array [
+                        Node {
+                          "attribs": Object {
+                            "class": "MuiGrid-root MuiGrid-container",
+                          },
+                          "children": Array [
+                            Node {
+                              "attribs": Object {
+                                "class": "MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-8",
+                                "style": "padding:5px 10px",
+                              },
+                              "children": Array [
+                                Node {
+                                  "attribs": Object {
+                                    "id": "stacked-topic-chart",
+                                  },
+                                  "children": Array [
+                                    Node {
+                                      "attribs": Object {
+                                        "class": "MuiTypography-root MuiTypography-h5",
+                                      },
+                                      "children": Array [
+                                        Node {
+                                          "data": "Content",
+                                          "next": null,
+                                          "parent": [Circular],
+                                          "prev": null,
+                                          "type": "text",
+                                        },
+                                      ],
+                                      "name": "h5",
+                                      "namespace": "http://www.w3.org/1999/xhtml",
+                                      "next": Node {
+                                        "attribs": Object {
+                                          "class": "MuiTypography-root MuiTypography-caption",
+                                        },
+                                        "children": Array [
+                                          Node {
+                                            "data": "No data available",
+                                            "next": null,
+                                            "parent": [Circular],
+                                            "prev": null,
+                                            "type": "text",
+                                          },
+                                        ],
+                                        "name": "span",
+                                        "namespace": "http://www.w3.org/1999/xhtml",
+                                        "next": null,
+                                        "parent": [Circular],
+                                        "prev": [Circular],
+                                        "type": "tag",
+                                        "x-attribsNamespace": Object {
+                                          "class": undefined,
+                                        },
+                                        "x-attribsPrefix": Object {
+                                          "class": undefined,
+                                        },
+                                      },
+                                      "parent": [Circular],
+                                      "prev": null,
+                                      "type": "tag",
+                                      "x-attribsNamespace": Object {
+                                        "class": undefined,
+                                      },
+                                      "x-attribsPrefix": Object {
+                                        "class": undefined,
+                                      },
+                                    },
+                                    Node {
+                                      "attribs": Object {
+                                        "class": "MuiTypography-root MuiTypography-caption",
+                                      },
+                                      "children": Array [
+                                        Node {
+                                          "data": "No data available",
+                                          "next": null,
+                                          "parent": [Circular],
+                                          "prev": null,
+                                          "type": "text",
+                                        },
+                                      ],
+                                      "name": "span",
+                                      "namespace": "http://www.w3.org/1999/xhtml",
+                                      "next": null,
+                                      "parent": [Circular],
+                                      "prev": Node {
+                                        "attribs": Object {
+                                          "class": "MuiTypography-root MuiTypography-h5",
+                                        },
+                                        "children": Array [
+                                          Node {
+                                            "data": "Content",
+                                            "next": null,
+                                            "parent": [Circular],
+                                            "prev": null,
+                                            "type": "text",
+                                          },
+                                        ],
+                                        "name": "h5",
+                                        "namespace": "http://www.w3.org/1999/xhtml",
+                                        "next": [Circular],
+                                        "parent": [Circular],
+                                        "prev": null,
+                                        "type": "tag",
+                                        "x-attribsNamespace": Object {
+                                          "class": undefined,
+                                        },
+                                        "x-attribsPrefix": Object {
+                                          "class": undefined,
+                                        },
+                                      },
+                                      "type": "tag",
+                                      "x-attribsNamespace": Object {
+                                        "class": undefined,
+                                      },
+                                      "x-attribsPrefix": Object {
+                                        "class": undefined,
+                                      },
+                                    },
+                                  ],
+                                  "name": "div",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": null,
+                                  "parent": [Circular],
+                                  "prev": null,
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {
+                                    "id": undefined,
+                                  },
+                                  "x-attribsPrefix": Object {
+                                    "id": undefined,
+                                  },
+                                },
+                              ],
+                              "name": "div",
+                              "namespace": "http://www.w3.org/1999/xhtml",
+                              "next": Node {
+                                "attribs": Object {
+                                  "class": "MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4",
+                                  "style": "padding:5px 10px",
+                                },
+                                "children": Array [
+                                  Node {
+                                    "attribs": Object {
+                                      "id": "stacked-competency-chart",
+                                    },
+                                    "children": Array [
+                                      Node {
+                                        "attribs": Object {
+                                          "class": "MuiTypography-root MuiTypography-h5",
+                                        },
+                                        "children": Array [
+                                          Node {
+                                            "data": "Competencies",
+                                            "next": null,
+                                            "parent": [Circular],
+                                            "prev": null,
+                                            "type": "text",
+                                          },
+                                        ],
+                                        "name": "h5",
+                                        "namespace": "http://www.w3.org/1999/xhtml",
+                                        "next": Node {
+                                          "attribs": Object {
+                                            "class": "MuiTypography-root MuiTypography-caption",
+                                          },
+                                          "children": Array [
+                                            Node {
+                                              "data": "No data available",
+                                              "next": null,
+                                              "parent": [Circular],
+                                              "prev": null,
+                                              "type": "text",
+                                            },
+                                          ],
+                                          "name": "span",
+                                          "namespace": "http://www.w3.org/1999/xhtml",
+                                          "next": null,
+                                          "parent": [Circular],
+                                          "prev": [Circular],
+                                          "type": "tag",
+                                          "x-attribsNamespace": Object {
+                                            "class": undefined,
+                                          },
+                                          "x-attribsPrefix": Object {
+                                            "class": undefined,
+                                          },
+                                        },
+                                        "parent": [Circular],
+                                        "prev": null,
+                                        "type": "tag",
+                                        "x-attribsNamespace": Object {
+                                          "class": undefined,
+                                        },
+                                        "x-attribsPrefix": Object {
+                                          "class": undefined,
+                                        },
+                                      },
+                                      Node {
+                                        "attribs": Object {
+                                          "class": "MuiTypography-root MuiTypography-caption",
+                                        },
+                                        "children": Array [
+                                          Node {
+                                            "data": "No data available",
+                                            "next": null,
+                                            "parent": [Circular],
+                                            "prev": null,
+                                            "type": "text",
+                                          },
+                                        ],
+                                        "name": "span",
+                                        "namespace": "http://www.w3.org/1999/xhtml",
+                                        "next": null,
+                                        "parent": [Circular],
+                                        "prev": Node {
+                                          "attribs": Object {
+                                            "class": "MuiTypography-root MuiTypography-h5",
+                                          },
+                                          "children": Array [
+                                            Node {
+                                              "data": "Competencies",
+                                              "next": null,
+                                              "parent": [Circular],
+                                              "prev": null,
+                                              "type": "text",
+                                            },
+                                          ],
+                                          "name": "h5",
+                                          "namespace": "http://www.w3.org/1999/xhtml",
+                                          "next": [Circular],
+                                          "parent": [Circular],
+                                          "prev": null,
+                                          "type": "tag",
+                                          "x-attribsNamespace": Object {
+                                            "class": undefined,
+                                          },
+                                          "x-attribsPrefix": Object {
+                                            "class": undefined,
+                                          },
+                                        },
+                                        "type": "tag",
+                                        "x-attribsNamespace": Object {
+                                          "class": undefined,
+                                        },
+                                        "x-attribsPrefix": Object {
+                                          "class": undefined,
+                                        },
+                                      },
+                                    ],
+                                    "name": "div",
+                                    "namespace": "http://www.w3.org/1999/xhtml",
+                                    "next": null,
+                                    "parent": [Circular],
+                                    "prev": null,
+                                    "type": "tag",
+                                    "x-attribsNamespace": Object {
+                                      "id": undefined,
+                                    },
+                                    "x-attribsPrefix": Object {
+                                      "id": undefined,
+                                    },
+                                  },
+                                ],
+                                "name": "div",
+                                "namespace": "http://www.w3.org/1999/xhtml",
+                                "next": null,
+                                "parent": [Circular],
+                                "prev": [Circular],
+                                "type": "tag",
+                                "x-attribsNamespace": Object {
+                                  "class": undefined,
+                                  "style": undefined,
+                                },
+                                "x-attribsPrefix": Object {
+                                  "class": undefined,
+                                  "style": undefined,
+                                },
+                              },
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "tag",
+                              "x-attribsNamespace": Object {
+                                "class": undefined,
+                                "style": undefined,
+                              },
+                              "x-attribsPrefix": Object {
+                                "class": undefined,
+                                "style": undefined,
+                              },
+                            },
+                            Node {
+                              "attribs": Object {
+                                "class": "MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4",
+                                "style": "padding:5px 10px",
+                              },
+                              "children": Array [
+                                Node {
+                                  "attribs": Object {
+                                    "id": "stacked-competency-chart",
+                                  },
+                                  "children": Array [
+                                    Node {
+                                      "attribs": Object {
+                                        "class": "MuiTypography-root MuiTypography-h5",
+                                      },
+                                      "children": Array [
+                                        Node {
+                                          "data": "Competencies",
+                                          "next": null,
+                                          "parent": [Circular],
+                                          "prev": null,
+                                          "type": "text",
+                                        },
+                                      ],
+                                      "name": "h5",
+                                      "namespace": "http://www.w3.org/1999/xhtml",
+                                      "next": Node {
+                                        "attribs": Object {
+                                          "class": "MuiTypography-root MuiTypography-caption",
+                                        },
+                                        "children": Array [
+                                          Node {
+                                            "data": "No data available",
+                                            "next": null,
+                                            "parent": [Circular],
+                                            "prev": null,
+                                            "type": "text",
+                                          },
+                                        ],
+                                        "name": "span",
+                                        "namespace": "http://www.w3.org/1999/xhtml",
+                                        "next": null,
+                                        "parent": [Circular],
+                                        "prev": [Circular],
+                                        "type": "tag",
+                                        "x-attribsNamespace": Object {
+                                          "class": undefined,
+                                        },
+                                        "x-attribsPrefix": Object {
+                                          "class": undefined,
+                                        },
+                                      },
+                                      "parent": [Circular],
+                                      "prev": null,
+                                      "type": "tag",
+                                      "x-attribsNamespace": Object {
+                                        "class": undefined,
+                                      },
+                                      "x-attribsPrefix": Object {
+                                        "class": undefined,
+                                      },
+                                    },
+                                    Node {
+                                      "attribs": Object {
+                                        "class": "MuiTypography-root MuiTypography-caption",
+                                      },
+                                      "children": Array [
+                                        Node {
+                                          "data": "No data available",
+                                          "next": null,
+                                          "parent": [Circular],
+                                          "prev": null,
+                                          "type": "text",
+                                        },
+                                      ],
+                                      "name": "span",
+                                      "namespace": "http://www.w3.org/1999/xhtml",
+                                      "next": null,
+                                      "parent": [Circular],
+                                      "prev": Node {
+                                        "attribs": Object {
+                                          "class": "MuiTypography-root MuiTypography-h5",
+                                        },
+                                        "children": Array [
+                                          Node {
+                                            "data": "Competencies",
+                                            "next": null,
+                                            "parent": [Circular],
+                                            "prev": null,
+                                            "type": "text",
+                                          },
+                                        ],
+                                        "name": "h5",
+                                        "namespace": "http://www.w3.org/1999/xhtml",
+                                        "next": [Circular],
+                                        "parent": [Circular],
+                                        "prev": null,
+                                        "type": "tag",
+                                        "x-attribsNamespace": Object {
+                                          "class": undefined,
+                                        },
+                                        "x-attribsPrefix": Object {
+                                          "class": undefined,
+                                        },
+                                      },
+                                      "type": "tag",
+                                      "x-attribsNamespace": Object {
+                                        "class": undefined,
+                                      },
+                                      "x-attribsPrefix": Object {
+                                        "class": undefined,
+                                      },
+                                    },
+                                  ],
+                                  "name": "div",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": null,
+                                  "parent": [Circular],
+                                  "prev": null,
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {
+                                    "id": undefined,
+                                  },
+                                  "x-attribsPrefix": Object {
+                                    "id": undefined,
+                                  },
+                                },
+                              ],
+                              "name": "div",
+                              "namespace": "http://www.w3.org/1999/xhtml",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": Node {
+                                "attribs": Object {
+                                  "class": "MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-8",
+                                  "style": "padding:5px 10px",
+                                },
+                                "children": Array [
+                                  Node {
+                                    "attribs": Object {
+                                      "id": "stacked-topic-chart",
+                                    },
+                                    "children": Array [
+                                      Node {
+                                        "attribs": Object {
+                                          "class": "MuiTypography-root MuiTypography-h5",
+                                        },
+                                        "children": Array [
+                                          Node {
+                                            "data": "Content",
+                                            "next": null,
+                                            "parent": [Circular],
+                                            "prev": null,
+                                            "type": "text",
+                                          },
+                                        ],
+                                        "name": "h5",
+                                        "namespace": "http://www.w3.org/1999/xhtml",
+                                        "next": Node {
+                                          "attribs": Object {
+                                            "class": "MuiTypography-root MuiTypography-caption",
+                                          },
+                                          "children": Array [
+                                            Node {
+                                              "data": "No data available",
+                                              "next": null,
+                                              "parent": [Circular],
+                                              "prev": null,
+                                              "type": "text",
+                                            },
+                                          ],
+                                          "name": "span",
+                                          "namespace": "http://www.w3.org/1999/xhtml",
+                                          "next": null,
+                                          "parent": [Circular],
+                                          "prev": [Circular],
+                                          "type": "tag",
+                                          "x-attribsNamespace": Object {
+                                            "class": undefined,
+                                          },
+                                          "x-attribsPrefix": Object {
+                                            "class": undefined,
+                                          },
+                                        },
+                                        "parent": [Circular],
+                                        "prev": null,
+                                        "type": "tag",
+                                        "x-attribsNamespace": Object {
+                                          "class": undefined,
+                                        },
+                                        "x-attribsPrefix": Object {
+                                          "class": undefined,
+                                        },
+                                      },
+                                      Node {
+                                        "attribs": Object {
+                                          "class": "MuiTypography-root MuiTypography-caption",
+                                        },
+                                        "children": Array [
+                                          Node {
+                                            "data": "No data available",
+                                            "next": null,
+                                            "parent": [Circular],
+                                            "prev": null,
+                                            "type": "text",
+                                          },
+                                        ],
+                                        "name": "span",
+                                        "namespace": "http://www.w3.org/1999/xhtml",
+                                        "next": null,
+                                        "parent": [Circular],
+                                        "prev": Node {
+                                          "attribs": Object {
+                                            "class": "MuiTypography-root MuiTypography-h5",
+                                          },
+                                          "children": Array [
+                                            Node {
+                                              "data": "Content",
+                                              "next": null,
+                                              "parent": [Circular],
+                                              "prev": null,
+                                              "type": "text",
+                                            },
+                                          ],
+                                          "name": "h5",
+                                          "namespace": "http://www.w3.org/1999/xhtml",
+                                          "next": [Circular],
+                                          "parent": [Circular],
+                                          "prev": null,
+                                          "type": "tag",
+                                          "x-attribsNamespace": Object {
+                                            "class": undefined,
+                                          },
+                                          "x-attribsPrefix": Object {
+                                            "class": undefined,
+                                          },
+                                        },
+                                        "type": "tag",
+                                        "x-attribsNamespace": Object {
+                                          "class": undefined,
+                                        },
+                                        "x-attribsPrefix": Object {
+                                          "class": undefined,
+                                        },
+                                      },
+                                    ],
+                                    "name": "div",
+                                    "namespace": "http://www.w3.org/1999/xhtml",
+                                    "next": null,
+                                    "parent": [Circular],
+                                    "prev": null,
+                                    "type": "tag",
+                                    "x-attribsNamespace": Object {
+                                      "id": undefined,
+                                    },
+                                    "x-attribsPrefix": Object {
+                                      "id": undefined,
+                                    },
+                                  },
+                                ],
+                                "name": "div",
+                                "namespace": "http://www.w3.org/1999/xhtml",
+                                "next": [Circular],
+                                "parent": [Circular],
+                                "prev": null,
+                                "type": "tag",
+                                "x-attribsNamespace": Object {
+                                  "class": undefined,
+                                  "style": undefined,
+                                },
+                                "x-attribsPrefix": Object {
+                                  "class": undefined,
+                                  "style": undefined,
+                                },
+                              },
+                              "type": "tag",
+                              "x-attribsNamespace": Object {
+                                "class": undefined,
+                                "style": undefined,
+                              },
+                              "x-attribsPrefix": Object {
+                                "class": undefined,
+                                "style": undefined,
+                              },
+                            },
+                          ],
+                          "name": "div",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "tag",
+                          "x-attribsNamespace": Object {
+                            "class": undefined,
+                          },
+                          "x-attribsPrefix": Object {
+                            "class": undefined,
+                          },
+                        },
+                      ],
+                      "name": "div",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                        "dir": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                        "dir": undefined,
+                      },
+                    },
+                  ],
+                  "name": "div",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "aria-hidden": undefined,
+                    "data-swipeable": undefined,
+                    "style": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "aria-hidden": undefined,
+                    "data-swipeable": undefined,
+                    "style": undefined,
+                  },
+                },
+              ],
+              "name": "div",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+                "style": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+                "style": undefined,
+              },
+            },
+          ],
+          "name": "div",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": null,
+          "parent": [Circular],
+          "prev": [Circular],
+          "type": "tag",
+          "x-attribsNamespace": Object {
+            "style": undefined,
+          },
+          "x-attribsPrefix": Object {
+            "style": undefined,
+          },
+        },
+      ],
+      "name": "root",
+      "next": null,
+      "parent": null,
+      "prev": null,
+      "type": "root",
+    },
+    "prev": null,
+    "type": "tag",
+    "x-attribsNamespace": Object {
+      "class": undefined,
+    },
+    "x-attribsPrefix": Object {
+      "class": undefined,
+    },
+  },
+  "1": Node {
+    "attribs": Object {
+      "style": "overflow-x:hidden;overflow:hidden;padding:20px",
+    },
+    "children": Array [
+      Node {
+        "attribs": Object {
+          "class": "react-swipeable-view-container",
+          "style": "-webkit-flex-direction:row;flex-direction:row;-webkit-transition:all 0s ease 0s;transition:all 0s ease 0s;direction:ltr;display:flex;will-change:transform",
+        },
+        "children": Array [
+          Node {
+            "attribs": Object {
+              "aria-hidden": "false",
+              "data-swipeable": "true",
+              "style": "width:100%;-webkit-flex-shrink:0;flex-shrink:0;overflow:auto",
+            },
+            "children": Array [
+              Node {
+                "attribs": Object {
+                  "class": "MuiTypography-root MuiTypography-body1",
+                  "dir": "ltr",
+                },
+                "children": Array [
+                  Node {
+                    "attribs": Object {
+                      "class": "MuiGrid-root MuiGrid-container",
+                    },
+                    "children": Array [
+                      Node {
+                        "attribs": Object {
+                          "class": "MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-8",
+                          "style": "padding:5px 10px",
+                        },
+                        "children": Array [
+                          Node {
+                            "attribs": Object {
+                              "id": "stacked-topic-chart",
+                            },
+                            "children": Array [
+                              Node {
+                                "attribs": Object {
+                                  "class": "MuiTypography-root MuiTypography-h5",
+                                },
+                                "children": Array [
+                                  Node {
+                                    "data": "Content",
+                                    "next": null,
+                                    "parent": [Circular],
+                                    "prev": null,
+                                    "type": "text",
+                                  },
+                                ],
+                                "name": "h5",
+                                "namespace": "http://www.w3.org/1999/xhtml",
+                                "next": Node {
+                                  "attribs": Object {
+                                    "class": "MuiTypography-root MuiTypography-caption",
+                                  },
+                                  "children": Array [
+                                    Node {
+                                      "data": "No data available",
+                                      "next": null,
+                                      "parent": [Circular],
+                                      "prev": null,
+                                      "type": "text",
+                                    },
+                                  ],
+                                  "name": "span",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": null,
+                                  "parent": [Circular],
+                                  "prev": [Circular],
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {
+                                    "class": undefined,
+                                  },
+                                  "x-attribsPrefix": Object {
+                                    "class": undefined,
+                                  },
+                                },
+                                "parent": [Circular],
+                                "prev": null,
+                                "type": "tag",
+                                "x-attribsNamespace": Object {
+                                  "class": undefined,
+                                },
+                                "x-attribsPrefix": Object {
+                                  "class": undefined,
+                                },
+                              },
+                              Node {
+                                "attribs": Object {
+                                  "class": "MuiTypography-root MuiTypography-caption",
+                                },
+                                "children": Array [
+                                  Node {
+                                    "data": "No data available",
+                                    "next": null,
+                                    "parent": [Circular],
+                                    "prev": null,
+                                    "type": "text",
+                                  },
+                                ],
+                                "name": "span",
+                                "namespace": "http://www.w3.org/1999/xhtml",
+                                "next": null,
+                                "parent": [Circular],
+                                "prev": Node {
+                                  "attribs": Object {
+                                    "class": "MuiTypography-root MuiTypography-h5",
+                                  },
+                                  "children": Array [
+                                    Node {
+                                      "data": "Content",
+                                      "next": null,
+                                      "parent": [Circular],
+                                      "prev": null,
+                                      "type": "text",
+                                    },
+                                  ],
+                                  "name": "h5",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": [Circular],
+                                  "parent": [Circular],
+                                  "prev": null,
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {
+                                    "class": undefined,
+                                  },
+                                  "x-attribsPrefix": Object {
+                                    "class": undefined,
+                                  },
+                                },
+                                "type": "tag",
+                                "x-attribsNamespace": Object {
+                                  "class": undefined,
+                                },
+                                "x-attribsPrefix": Object {
+                                  "class": undefined,
+                                },
+                              },
+                            ],
+                            "name": "div",
+                            "namespace": "http://www.w3.org/1999/xhtml",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "tag",
+                            "x-attribsNamespace": Object {
+                              "id": undefined,
+                            },
+                            "x-attribsPrefix": Object {
+                              "id": undefined,
+                            },
+                          },
+                        ],
+                        "name": "div",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": Node {
+                          "attribs": Object {
+                            "class": "MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4",
+                            "style": "padding:5px 10px",
+                          },
+                          "children": Array [
+                            Node {
+                              "attribs": Object {
+                                "id": "stacked-competency-chart",
+                              },
+                              "children": Array [
+                                Node {
+                                  "attribs": Object {
+                                    "class": "MuiTypography-root MuiTypography-h5",
+                                  },
+                                  "children": Array [
+                                    Node {
+                                      "data": "Competencies",
+                                      "next": null,
+                                      "parent": [Circular],
+                                      "prev": null,
+                                      "type": "text",
+                                    },
+                                  ],
+                                  "name": "h5",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": Node {
+                                    "attribs": Object {
+                                      "class": "MuiTypography-root MuiTypography-caption",
+                                    },
+                                    "children": Array [
+                                      Node {
+                                        "data": "No data available",
+                                        "next": null,
+                                        "parent": [Circular],
+                                        "prev": null,
+                                        "type": "text",
+                                      },
+                                    ],
+                                    "name": "span",
+                                    "namespace": "http://www.w3.org/1999/xhtml",
+                                    "next": null,
+                                    "parent": [Circular],
+                                    "prev": [Circular],
+                                    "type": "tag",
+                                    "x-attribsNamespace": Object {
+                                      "class": undefined,
+                                    },
+                                    "x-attribsPrefix": Object {
+                                      "class": undefined,
+                                    },
+                                  },
+                                  "parent": [Circular],
+                                  "prev": null,
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {
+                                    "class": undefined,
+                                  },
+                                  "x-attribsPrefix": Object {
+                                    "class": undefined,
+                                  },
+                                },
+                                Node {
+                                  "attribs": Object {
+                                    "class": "MuiTypography-root MuiTypography-caption",
+                                  },
+                                  "children": Array [
+                                    Node {
+                                      "data": "No data available",
+                                      "next": null,
+                                      "parent": [Circular],
+                                      "prev": null,
+                                      "type": "text",
+                                    },
+                                  ],
+                                  "name": "span",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": null,
+                                  "parent": [Circular],
+                                  "prev": Node {
+                                    "attribs": Object {
+                                      "class": "MuiTypography-root MuiTypography-h5",
+                                    },
+                                    "children": Array [
+                                      Node {
+                                        "data": "Competencies",
+                                        "next": null,
+                                        "parent": [Circular],
+                                        "prev": null,
+                                        "type": "text",
+                                      },
+                                    ],
+                                    "name": "h5",
+                                    "namespace": "http://www.w3.org/1999/xhtml",
+                                    "next": [Circular],
+                                    "parent": [Circular],
+                                    "prev": null,
+                                    "type": "tag",
+                                    "x-attribsNamespace": Object {
+                                      "class": undefined,
+                                    },
+                                    "x-attribsPrefix": Object {
+                                      "class": undefined,
+                                    },
+                                  },
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {
+                                    "class": undefined,
+                                  },
+                                  "x-attribsPrefix": Object {
+                                    "class": undefined,
+                                  },
+                                },
+                              ],
+                              "name": "div",
+                              "namespace": "http://www.w3.org/1999/xhtml",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "tag",
+                              "x-attribsNamespace": Object {
+                                "id": undefined,
+                              },
+                              "x-attribsPrefix": Object {
+                                "id": undefined,
+                              },
+                            },
+                          ],
+                          "name": "div",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": [Circular],
+                          "type": "tag",
+                          "x-attribsNamespace": Object {
+                            "class": undefined,
+                            "style": undefined,
+                          },
+                          "x-attribsPrefix": Object {
+                            "class": undefined,
+                            "style": undefined,
+                          },
+                        },
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                        "x-attribsNamespace": Object {
+                          "class": undefined,
+                          "style": undefined,
+                        },
+                        "x-attribsPrefix": Object {
+                          "class": undefined,
+                          "style": undefined,
+                        },
+                      },
+                      Node {
+                        "attribs": Object {
+                          "class": "MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4",
+                          "style": "padding:5px 10px",
+                        },
+                        "children": Array [
+                          Node {
+                            "attribs": Object {
+                              "id": "stacked-competency-chart",
+                            },
+                            "children": Array [
+                              Node {
+                                "attribs": Object {
+                                  "class": "MuiTypography-root MuiTypography-h5",
+                                },
+                                "children": Array [
+                                  Node {
+                                    "data": "Competencies",
+                                    "next": null,
+                                    "parent": [Circular],
+                                    "prev": null,
+                                    "type": "text",
+                                  },
+                                ],
+                                "name": "h5",
+                                "namespace": "http://www.w3.org/1999/xhtml",
+                                "next": Node {
+                                  "attribs": Object {
+                                    "class": "MuiTypography-root MuiTypography-caption",
+                                  },
+                                  "children": Array [
+                                    Node {
+                                      "data": "No data available",
+                                      "next": null,
+                                      "parent": [Circular],
+                                      "prev": null,
+                                      "type": "text",
+                                    },
+                                  ],
+                                  "name": "span",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": null,
+                                  "parent": [Circular],
+                                  "prev": [Circular],
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {
+                                    "class": undefined,
+                                  },
+                                  "x-attribsPrefix": Object {
+                                    "class": undefined,
+                                  },
+                                },
+                                "parent": [Circular],
+                                "prev": null,
+                                "type": "tag",
+                                "x-attribsNamespace": Object {
+                                  "class": undefined,
+                                },
+                                "x-attribsPrefix": Object {
+                                  "class": undefined,
+                                },
+                              },
+                              Node {
+                                "attribs": Object {
+                                  "class": "MuiTypography-root MuiTypography-caption",
+                                },
+                                "children": Array [
+                                  Node {
+                                    "data": "No data available",
+                                    "next": null,
+                                    "parent": [Circular],
+                                    "prev": null,
+                                    "type": "text",
+                                  },
+                                ],
+                                "name": "span",
+                                "namespace": "http://www.w3.org/1999/xhtml",
+                                "next": null,
+                                "parent": [Circular],
+                                "prev": Node {
+                                  "attribs": Object {
+                                    "class": "MuiTypography-root MuiTypography-h5",
+                                  },
+                                  "children": Array [
+                                    Node {
+                                      "data": "Competencies",
+                                      "next": null,
+                                      "parent": [Circular],
+                                      "prev": null,
+                                      "type": "text",
+                                    },
+                                  ],
+                                  "name": "h5",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": [Circular],
+                                  "parent": [Circular],
+                                  "prev": null,
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {
+                                    "class": undefined,
+                                  },
+                                  "x-attribsPrefix": Object {
+                                    "class": undefined,
+                                  },
+                                },
+                                "type": "tag",
+                                "x-attribsNamespace": Object {
+                                  "class": undefined,
+                                },
+                                "x-attribsPrefix": Object {
+                                  "class": undefined,
+                                },
+                              },
+                            ],
+                            "name": "div",
+                            "namespace": "http://www.w3.org/1999/xhtml",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "tag",
+                            "x-attribsNamespace": Object {
+                              "id": undefined,
+                            },
+                            "x-attribsPrefix": Object {
+                              "id": undefined,
+                            },
+                          },
+                        ],
+                        "name": "div",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": Node {
+                          "attribs": Object {
+                            "class": "MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-8",
+                            "style": "padding:5px 10px",
+                          },
+                          "children": Array [
+                            Node {
+                              "attribs": Object {
+                                "id": "stacked-topic-chart",
+                              },
+                              "children": Array [
+                                Node {
+                                  "attribs": Object {
+                                    "class": "MuiTypography-root MuiTypography-h5",
+                                  },
+                                  "children": Array [
+                                    Node {
+                                      "data": "Content",
+                                      "next": null,
+                                      "parent": [Circular],
+                                      "prev": null,
+                                      "type": "text",
+                                    },
+                                  ],
+                                  "name": "h5",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": Node {
+                                    "attribs": Object {
+                                      "class": "MuiTypography-root MuiTypography-caption",
+                                    },
+                                    "children": Array [
+                                      Node {
+                                        "data": "No data available",
+                                        "next": null,
+                                        "parent": [Circular],
+                                        "prev": null,
+                                        "type": "text",
+                                      },
+                                    ],
+                                    "name": "span",
+                                    "namespace": "http://www.w3.org/1999/xhtml",
+                                    "next": null,
+                                    "parent": [Circular],
+                                    "prev": [Circular],
+                                    "type": "tag",
+                                    "x-attribsNamespace": Object {
+                                      "class": undefined,
+                                    },
+                                    "x-attribsPrefix": Object {
+                                      "class": undefined,
+                                    },
+                                  },
+                                  "parent": [Circular],
+                                  "prev": null,
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {
+                                    "class": undefined,
+                                  },
+                                  "x-attribsPrefix": Object {
+                                    "class": undefined,
+                                  },
+                                },
+                                Node {
+                                  "attribs": Object {
+                                    "class": "MuiTypography-root MuiTypography-caption",
+                                  },
+                                  "children": Array [
+                                    Node {
+                                      "data": "No data available",
+                                      "next": null,
+                                      "parent": [Circular],
+                                      "prev": null,
+                                      "type": "text",
+                                    },
+                                  ],
+                                  "name": "span",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": null,
+                                  "parent": [Circular],
+                                  "prev": Node {
+                                    "attribs": Object {
+                                      "class": "MuiTypography-root MuiTypography-h5",
+                                    },
+                                    "children": Array [
+                                      Node {
+                                        "data": "Content",
+                                        "next": null,
+                                        "parent": [Circular],
+                                        "prev": null,
+                                        "type": "text",
+                                      },
+                                    ],
+                                    "name": "h5",
+                                    "namespace": "http://www.w3.org/1999/xhtml",
+                                    "next": [Circular],
+                                    "parent": [Circular],
+                                    "prev": null,
+                                    "type": "tag",
+                                    "x-attribsNamespace": Object {
+                                      "class": undefined,
+                                    },
+                                    "x-attribsPrefix": Object {
+                                      "class": undefined,
+                                    },
+                                  },
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {
+                                    "class": undefined,
+                                  },
+                                  "x-attribsPrefix": Object {
+                                    "class": undefined,
+                                  },
+                                },
+                              ],
+                              "name": "div",
+                              "namespace": "http://www.w3.org/1999/xhtml",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "tag",
+                              "x-attribsNamespace": Object {
+                                "id": undefined,
+                              },
+                              "x-attribsPrefix": Object {
+                                "id": undefined,
+                              },
+                            },
+                          ],
+                          "name": "div",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": [Circular],
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "tag",
+                          "x-attribsNamespace": Object {
+                            "class": undefined,
+                            "style": undefined,
+                          },
+                          "x-attribsPrefix": Object {
+                            "class": undefined,
+                            "style": undefined,
+                          },
+                        },
+                        "type": "tag",
+                        "x-attribsNamespace": Object {
+                          "class": undefined,
+                          "style": undefined,
+                        },
+                        "x-attribsPrefix": Object {
+                          "class": undefined,
+                          "style": undefined,
+                        },
+                      },
+                    ],
+                    "name": "div",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "class": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "class": undefined,
+                    },
+                  },
+                ],
+                "name": "div",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                  "dir": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                  "dir": undefined,
+                },
+              },
+            ],
+            "name": "div",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": null,
+            "parent": [Circular],
+            "prev": null,
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "aria-hidden": undefined,
+              "data-swipeable": undefined,
+              "style": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "aria-hidden": undefined,
+              "data-swipeable": undefined,
+              "style": undefined,
+            },
+          },
+        ],
+        "name": "div",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": null,
+        "parent": [Circular],
+        "prev": null,
+        "type": "tag",
+        "x-attribsNamespace": Object {
+          "class": undefined,
+          "style": undefined,
+        },
+        "x-attribsPrefix": Object {
+          "class": undefined,
+          "style": undefined,
+        },
+      },
+    ],
+    "name": "div",
+    "namespace": "http://www.w3.org/1999/xhtml",
+    "next": null,
+    "parent": Node {
+      "children": Array [
+        Node {
+          "attribs": Object {
+            "class": "MuiTabs-root",
+          },
+          "children": Array [
+            Node {
+              "attribs": Object {
+                "class": "MuiTabs-scroller MuiTabs-fixed",
+                "style": "overflow:hidden",
+              },
+              "children": Array [
+                Node {
+                  "attribs": Object {
+                    "class": "MuiTabs-flexContainer",
+                    "role": "tablist",
+                  },
+                  "children": Array [
+                    Node {
+                      "attribs": Object {
+                        "aria-selected": "true",
+                        "class": "MuiButtonBase-root MuiTab-root MuiTab-textColorSecondary Mui-selected MuiTab-fullWidth",
+                        "role": "tab",
+                        "tabindex": "0",
+                        "type": "button",
+                      },
+                      "children": Array [
+                        Node {
+                          "attribs": Object {
+                            "class": "MuiTab-wrapper",
+                          },
+                          "children": Array [
+                            Node {
+                              "data": "Math 9",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "text",
+                            },
+                          ],
+                          "name": "span",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": Node {
+                            "attribs": Object {
+                              "class": "PrivateTabIndicator-root-1 PrivateTabIndicator-colorSecondary-3 MuiTabs-indicator",
+                            },
+                            "children": Array [],
+                            "name": "span",
+                            "namespace": "http://www.w3.org/1999/xhtml",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": [Circular],
+                            "type": "tag",
+                            "x-attribsNamespace": Object {
+                              "class": undefined,
+                            },
+                            "x-attribsPrefix": Object {
+                              "class": undefined,
+                            },
+                          },
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "tag",
+                          "x-attribsNamespace": Object {
+                            "class": undefined,
+                          },
+                          "x-attribsPrefix": Object {
+                            "class": undefined,
+                          },
+                        },
+                        Node {
+                          "attribs": Object {
+                            "class": "PrivateTabIndicator-root-1 PrivateTabIndicator-colorSecondary-3 MuiTabs-indicator",
+                          },
+                          "children": Array [],
+                          "name": "span",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": Node {
+                            "attribs": Object {
+                              "class": "MuiTab-wrapper",
+                            },
+                            "children": Array [
+                              Node {
+                                "data": "Math 9",
+                                "next": null,
+                                "parent": [Circular],
+                                "prev": null,
+                                "type": "text",
+                              },
+                            ],
+                            "name": "span",
+                            "namespace": "http://www.w3.org/1999/xhtml",
+                            "next": [Circular],
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "tag",
+                            "x-attribsNamespace": Object {
+                              "class": undefined,
+                            },
+                            "x-attribsPrefix": Object {
+                              "class": undefined,
+                            },
+                          },
+                          "type": "tag",
+                          "x-attribsNamespace": Object {
+                            "class": undefined,
+                          },
+                          "x-attribsPrefix": Object {
+                            "class": undefined,
+                          },
+                        },
+                      ],
+                      "name": "button",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "aria-selected": undefined,
+                        "class": undefined,
+                        "role": undefined,
+                        "tabindex": undefined,
+                        "type": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "aria-selected": undefined,
+                        "class": undefined,
+                        "role": undefined,
+                        "tabindex": undefined,
+                        "type": undefined,
+                      },
+                    },
+                  ],
+                  "name": "div",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                    "role": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                    "role": undefined,
+                  },
+                },
+              ],
+              "name": "div",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+                "style": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+                "style": undefined,
+              },
+            },
+          ],
+          "name": "div",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": [Circular],
+          "parent": [Circular],
+          "prev": null,
+          "type": "tag",
+          "x-attribsNamespace": Object {
+            "class": undefined,
+          },
+          "x-attribsPrefix": Object {
+            "class": undefined,
+          },
+        },
+        [Circular],
+      ],
+      "name": "root",
+      "next": null,
+      "parent": null,
+      "prev": null,
+      "type": "root",
+    },
+    "prev": Node {
+      "attribs": Object {
+        "class": "MuiTabs-root",
+      },
+      "children": Array [
+        Node {
+          "attribs": Object {
+            "class": "MuiTabs-scroller MuiTabs-fixed",
+            "style": "overflow:hidden",
+          },
+          "children": Array [
+            Node {
+              "attribs": Object {
+                "class": "MuiTabs-flexContainer",
+                "role": "tablist",
+              },
+              "children": Array [
+                Node {
+                  "attribs": Object {
+                    "aria-selected": "true",
+                    "class": "MuiButtonBase-root MuiTab-root MuiTab-textColorSecondary Mui-selected MuiTab-fullWidth",
+                    "role": "tab",
+                    "tabindex": "0",
+                    "type": "button",
+                  },
+                  "children": Array [
+                    Node {
+                      "attribs": Object {
+                        "class": "MuiTab-wrapper",
+                      },
+                      "children": Array [
+                        Node {
+                          "data": "Math 9",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "span",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": Node {
+                        "attribs": Object {
+                          "class": "PrivateTabIndicator-root-1 PrivateTabIndicator-colorSecondary-3 MuiTabs-indicator",
+                        },
+                        "children": Array [],
+                        "name": "span",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": [Circular],
+                        "type": "tag",
+                        "x-attribsNamespace": Object {
+                          "class": undefined,
+                        },
+                        "x-attribsPrefix": Object {
+                          "class": undefined,
+                        },
+                      },
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                      },
+                    },
+                    Node {
+                      "attribs": Object {
+                        "class": "PrivateTabIndicator-root-1 PrivateTabIndicator-colorSecondary-3 MuiTabs-indicator",
+                      },
+                      "children": Array [],
+                      "name": "span",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": Node {
+                        "attribs": Object {
+                          "class": "MuiTab-wrapper",
+                        },
+                        "children": Array [
+                          Node {
+                            "data": "Math 9",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "text",
+                          },
+                        ],
+                        "name": "span",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": [Circular],
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                        "x-attribsNamespace": Object {
+                          "class": undefined,
+                        },
+                        "x-attribsPrefix": Object {
+                          "class": undefined,
+                        },
+                      },
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                      },
+                    },
+                  ],
+                  "name": "button",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "aria-selected": undefined,
+                    "class": undefined,
+                    "role": undefined,
+                    "tabindex": undefined,
+                    "type": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "aria-selected": undefined,
+                    "class": undefined,
+                    "role": undefined,
+                    "tabindex": undefined,
+                    "type": undefined,
+                  },
+                },
+              ],
+              "name": "div",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+                "role": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+                "role": undefined,
+              },
+            },
+          ],
+          "name": "div",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": null,
+          "parent": [Circular],
+          "prev": null,
+          "type": "tag",
+          "x-attribsNamespace": Object {
+            "class": undefined,
+            "style": undefined,
+          },
+          "x-attribsPrefix": Object {
+            "class": undefined,
+            "style": undefined,
+          },
+        },
+      ],
+      "name": "div",
+      "namespace": "http://www.w3.org/1999/xhtml",
+      "next": [Circular],
+      "parent": Node {
+        "children": Array [
+          [Circular],
+          [Circular],
+        ],
+        "name": "root",
+        "next": null,
+        "parent": null,
+        "prev": null,
+        "type": "root",
+      },
+      "prev": null,
+      "type": "tag",
+      "x-attribsNamespace": Object {
+        "class": undefined,
+      },
+      "x-attribsPrefix": Object {
+        "class": undefined,
+      },
+    },
+    "type": "tag",
+    "x-attribsNamespace": Object {
+      "style": undefined,
+    },
+    "x-attribsPrefix": Object {
+      "style": undefined,
+    },
+  },
+  "_root": [Circular],
+  "length": 2,
+  "options": Object {
+    "decodeEntities": true,
+    "xml": false,
+  },
+}
+`;

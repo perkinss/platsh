@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  section_id: 1
+  student_id: 1
+  start: 2019-07-07
+  end: 2019-07-07
+
+two:
+  section_id: 2
+  student_id: 2
+  start: 2019-07-07
+  end: 2019-07-07

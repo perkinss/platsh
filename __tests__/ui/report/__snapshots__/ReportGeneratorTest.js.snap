@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ReportGenerator /> should match the snapshot when hidden 1`] = `
+Object {
+  "options": Object {
+    "decodeEntities": true,
+    "xml": false,
+  },
+}
+`;
+
+exports[`<ReportGenerator /> should match the snapshot when loading 1`] = `"<div class=\\"MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-align-content-xs-flex-end\\"><div class=\\"MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 MuiGrid-grid-xl-1\\"><button class=\\"MuiButtonBase-root MuiButton-root MuiButton-text\\" tabindex=\\"0\\" type=\\"button\\"><span class=\\"MuiButton-label\\"><span class=\\"MuiTypography-root MuiTypography-caption\\">&lt; Back</span></span></button></div><div class=\\"MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-xl-10\\"><h4 class=\\"MuiTypography-root MuiTypography-h4\\">Comments for Jane</h4><h5 class=\\"MuiTypography-root MuiTypography-h5\\">Foo</h5></div><div class=\\"MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 MuiGrid-grid-xl-1\\"><button class=\\"MuiButtonBase-root MuiButton-root MuiButton-text\\" tabindex=\\"0\\" type=\\"button\\"><span class=\\"MuiButton-label\\"><h6 class=\\"MuiTypography-root MuiTypography-h6\\">x</h6></span></button></div></div>"`;

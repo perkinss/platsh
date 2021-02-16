@@ -1,0 +1,250 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StudentStandardsOverview /> should match the snapshot 1`] = `
+initialize {
+  "0": Node {
+    "attribs": Object {
+      "style": "padding:40px 0px 16px 0px",
+    },
+    "children": Array [
+      Node {
+        "attribs": Object {
+          "class": "MuiTypography-root MuiTypography-h5",
+        },
+        "children": Array [
+          Node {
+            "data": "Course Topics Overview",
+            "next": null,
+            "parent": [Circular],
+            "prev": null,
+            "type": "text",
+          },
+        ],
+        "name": "h5",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": Node {
+          "attribs": Object {
+            "class": "MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate",
+            "role": "progressbar",
+            "style": "width:40px;height:40px",
+          },
+          "children": Array [
+            Node {
+              "attribs": Object {
+                "class": "MuiCircularProgress-svg",
+                "viewBox": "22 22 44 44",
+              },
+              "children": Array [
+                Node {
+                  "attribs": Object {
+                    "class": "MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate",
+                    "cx": "44",
+                    "cy": "44",
+                    "fill": "none",
+                    "r": "20.2",
+                    "stroke-width": "3.6",
+                  },
+                  "children": Array [],
+                  "name": "circle",
+                  "namespace": "http://www.w3.org/2000/svg",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                    "cx": undefined,
+                    "cy": undefined,
+                    "fill": undefined,
+                    "r": undefined,
+                    "stroke-width": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                    "cx": undefined,
+                    "cy": undefined,
+                    "fill": undefined,
+                    "r": undefined,
+                    "stroke-width": undefined,
+                  },
+                },
+              ],
+              "name": "svg",
+              "namespace": "http://www.w3.org/2000/svg",
+              "next": null,
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+                "viewBox": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+                "viewBox": undefined,
+              },
+            },
+          ],
+          "name": "div",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": null,
+          "parent": [Circular],
+          "prev": [Circular],
+          "type": "tag",
+          "x-attribsNamespace": Object {
+            "class": undefined,
+            "role": undefined,
+            "style": undefined,
+          },
+          "x-attribsPrefix": Object {
+            "class": undefined,
+            "role": undefined,
+            "style": undefined,
+          },
+        },
+        "parent": [Circular],
+        "prev": null,
+        "type": "tag",
+        "x-attribsNamespace": Object {
+          "class": undefined,
+        },
+        "x-attribsPrefix": Object {
+          "class": undefined,
+        },
+      },
+      Node {
+        "attribs": Object {
+          "class": "MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate",
+          "role": "progressbar",
+          "style": "width:40px;height:40px",
+        },
+        "children": Array [
+          Node {
+            "attribs": Object {
+              "class": "MuiCircularProgress-svg",
+              "viewBox": "22 22 44 44",
+            },
+            "children": Array [
+              Node {
+                "attribs": Object {
+                  "class": "MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate",
+                  "cx": "44",
+                  "cy": "44",
+                  "fill": "none",
+                  "r": "20.2",
+                  "stroke-width": "3.6",
+                },
+                "children": Array [],
+                "name": "circle",
+                "namespace": "http://www.w3.org/2000/svg",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                  "cx": undefined,
+                  "cy": undefined,
+                  "fill": undefined,
+                  "r": undefined,
+                  "stroke-width": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                  "cx": undefined,
+                  "cy": undefined,
+                  "fill": undefined,
+                  "r": undefined,
+                  "stroke-width": undefined,
+                },
+              },
+            ],
+            "name": "svg",
+            "namespace": "http://www.w3.org/2000/svg",
+            "next": null,
+            "parent": [Circular],
+            "prev": null,
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+              "viewBox": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+              "viewBox": undefined,
+            },
+          },
+        ],
+        "name": "div",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": null,
+        "parent": [Circular],
+        "prev": Node {
+          "attribs": Object {
+            "class": "MuiTypography-root MuiTypography-h5",
+          },
+          "children": Array [
+            Node {
+              "data": "Course Topics Overview",
+              "next": null,
+              "parent": [Circular],
+              "prev": null,
+              "type": "text",
+            },
+          ],
+          "name": "h5",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": [Circular],
+          "parent": [Circular],
+          "prev": null,
+          "type": "tag",
+          "x-attribsNamespace": Object {
+            "class": undefined,
+          },
+          "x-attribsPrefix": Object {
+            "class": undefined,
+          },
+        },
+        "type": "tag",
+        "x-attribsNamespace": Object {
+          "class": undefined,
+          "role": undefined,
+          "style": undefined,
+        },
+        "x-attribsPrefix": Object {
+          "class": undefined,
+          "role": undefined,
+          "style": undefined,
+        },
+      },
+    ],
+    "name": "div",
+    "namespace": "http://www.w3.org/1999/xhtml",
+    "next": null,
+    "parent": Node {
+      "children": Array [
+        [Circular],
+      ],
+      "name": "root",
+      "next": null,
+      "parent": null,
+      "prev": null,
+      "type": "root",
+    },
+    "prev": null,
+    "type": "tag",
+    "x-attribsNamespace": Object {
+      "style": undefined,
+    },
+    "x-attribsPrefix": Object {
+      "style": undefined,
+    },
+  },
+  "_root": [Circular],
+  "length": 1,
+  "options": Object {
+    "decodeEntities": true,
+    "xml": false,
+  },
+}
+`;

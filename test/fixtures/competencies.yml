@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  course: one
+  competency_group: one
+  description: MyString
+
+two:
+  course: two
+  competency_group: two
+  description: MyString

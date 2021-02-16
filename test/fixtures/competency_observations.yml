@@ -1,0 +1,22 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+#one:
+#  Task: one
+#  User: one
+#  Competency: one
+#  Student: one
+#  level: 1
+
+one:
+  task_id: 1
+  user_id: 1
+  competency_id: 1
+  student_id: 1
+  level: 1
+
+two:
+  task_id: 2
+  user_id: 2
+  competency_id: 2
+  student_id: 2
+  level: 2

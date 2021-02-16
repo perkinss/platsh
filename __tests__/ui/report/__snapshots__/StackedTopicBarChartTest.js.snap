@@ -1,0 +1,150 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StackedTopicBarChart /> should match the snapshot 1`] = `
+initialize {
+  "0": Node {
+    "attribs": Object {
+      "id": "stacked-topic-chart",
+    },
+    "children": Array [
+      Node {
+        "attribs": Object {
+          "class": "MuiTypography-root MuiTypography-h5",
+        },
+        "children": Array [
+          Node {
+            "data": "Content",
+            "next": null,
+            "parent": [Circular],
+            "prev": null,
+            "type": "text",
+          },
+        ],
+        "name": "h5",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": Node {
+          "attribs": Object {
+            "height": "NaN",
+            "options": "[object Object]",
+            "series": "[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]",
+            "type": "bar",
+            "width": "100%",
+          },
+          "children": Array [],
+          "name": "div",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": null,
+          "parent": [Circular],
+          "prev": [Circular],
+          "type": "tag",
+          "x-attribsNamespace": Object {
+            "height": undefined,
+            "options": undefined,
+            "series": undefined,
+            "type": undefined,
+            "width": undefined,
+          },
+          "x-attribsPrefix": Object {
+            "height": undefined,
+            "options": undefined,
+            "series": undefined,
+            "type": undefined,
+            "width": undefined,
+          },
+        },
+        "parent": [Circular],
+        "prev": null,
+        "type": "tag",
+        "x-attribsNamespace": Object {
+          "class": undefined,
+        },
+        "x-attribsPrefix": Object {
+          "class": undefined,
+        },
+      },
+      Node {
+        "attribs": Object {
+          "height": "NaN",
+          "options": "[object Object]",
+          "series": "[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]",
+          "type": "bar",
+          "width": "100%",
+        },
+        "children": Array [],
+        "name": "div",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": null,
+        "parent": [Circular],
+        "prev": Node {
+          "attribs": Object {
+            "class": "MuiTypography-root MuiTypography-h5",
+          },
+          "children": Array [
+            Node {
+              "data": "Content",
+              "next": null,
+              "parent": [Circular],
+              "prev": null,
+              "type": "text",
+            },
+          ],
+          "name": "h5",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": [Circular],
+          "parent": [Circular],
+          "prev": null,
+          "type": "tag",
+          "x-attribsNamespace": Object {
+            "class": undefined,
+          },
+          "x-attribsPrefix": Object {
+            "class": undefined,
+          },
+        },
+        "type": "tag",
+        "x-attribsNamespace": Object {
+          "height": undefined,
+          "options": undefined,
+          "series": undefined,
+          "type": undefined,
+          "width": undefined,
+        },
+        "x-attribsPrefix": Object {
+          "height": undefined,
+          "options": undefined,
+          "series": undefined,
+          "type": undefined,
+          "width": undefined,
+        },
+      },
+    ],
+    "name": "div",
+    "namespace": "http://www.w3.org/1999/xhtml",
+    "next": null,
+    "parent": Node {
+      "children": Array [
+        [Circular],
+      ],
+      "name": "root",
+      "next": null,
+      "parent": null,
+      "prev": null,
+      "type": "root",
+    },
+    "prev": null,
+    "type": "tag",
+    "x-attribsNamespace": Object {
+      "id": undefined,
+    },
+    "x-attribsPrefix": Object {
+      "id": undefined,
+    },
+  },
+  "_root": [Circular],
+  "length": 1,
+  "options": Object {
+    "decodeEntities": true,
+    "xml": false,
+  },
+}
+`;

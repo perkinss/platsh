@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: one
+  contents_weight: 1
+  course: one
+
+two:
+  user: two
+  contents_weight: 1
+  course: two
