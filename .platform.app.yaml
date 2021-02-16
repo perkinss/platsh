@@ -7,7 +7,7 @@
 name: "markury-2"
 
 # The runtime the application uses.
-type: "ruby:2.7"
+type: "ruby:2.7.2"
 
 # The relationships of the application with services or other applications.
 #
