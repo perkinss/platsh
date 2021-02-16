@@ -5,4 +5,4 @@
 
 "https://{default}":
   type: upstream
-  upstream: "app:http"
+  upstream: "markury-2:http"
