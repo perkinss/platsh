@@ -46,6 +46,7 @@ hooks:
         bundle install --without development test
         RAILS_ENV=production bundle exec rake assets:precompile
         npm install
+        rails db:migrate
     # The deploy hook runs after your application has been deployed and started.
     deploy: |
         bundle exec rails db:migrate
